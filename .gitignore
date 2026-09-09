@@ -1,0 +1,37 @@
+# ---- 训练产物 / 采集数据(不开源)----
+*.pt
+*.npz
+*.ckpt
+logs/
+data/
+yolo_gate_data/
+yolo_runs/
+videos/
+expert_videos/
+
+# ---- 运行产生的日志与报告 ----
+*.log
+m4_shadow*.csv
+m4_stats*.csv
+vision_report.md
+head_cam_calib_out/
+head_cam_check/
+test_data/
+calib_report.csv
+
+# ---- 过程草稿 / 临时文件 ----
+_extract_out.txt
+vision_plan_extract.txt
+PLAN_M2_RECOLLECT.txt
+*.tmp
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- 系统 / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
